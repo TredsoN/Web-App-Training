@@ -19,5 +19,11 @@ variable "location" {
 variable "name" {
   description = "The name to use for the different parts of the deployment"
   type        = string
+  default     = "webapp1"
+}
+
+variable "app_name" {
+  description = "The name to use for the different parts of the deployment"
+  type        = string
   default     = "looong"
 }
